@@ -1,0 +1,18 @@
+C:\Documents and Settings\Maria\My Documents\Visual Studio 2008\Projects\salsa beats\XmlLibSalsa\bin\Debug\XmlLibSalsa.exe
+C:\Documents and Settings\Maria\My Documents\Visual Studio 2008\Projects\salsa beats\XmlLibSalsa\bin\Debug\XmlLibSalsa.pdb
+C:\Documents and Settings\Maria\My Documents\Visual Studio 2008\Projects\salsa beats\XmlLibSalsa\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Maria\My Documents\Visual Studio 2008\Projects\salsa beats\XmlLibSalsa\obj\Debug\XmlLibSalsa.Properties.Resources.resources
+C:\Documents and Settings\Maria\My Documents\Visual Studio 2008\Projects\salsa beats\XmlLibSalsa\obj\Debug\XmlLibSalsa.csproj.GenerateResource.Cache
+C:\Documents and Settings\Maria\My Documents\Visual Studio 2008\Projects\salsa beats\XmlLibSalsa\obj\Debug\XmlLibSalsa.exe
+C:\Documents and Settings\Maria\My Documents\Visual Studio 2008\Projects\salsa beats\XmlLibSalsa\obj\Debug\XmlLibSalsa.pdb
+C:\Documents and Settings\Maria\My Documents\Visual Studio 2008\Projects\salsa beats\XmlLibSalsa\obj\Debug\XmlLibSalsa.Form1.resources
+C:\Documents and Settings\Maria\My Documents\Visual Studio 2008\Projects\salsa beats\XmlLibSalsa\bin\Debug\beats.xml
+F:\salsa beats\XmlLibSalsa\obj\Debug\XmlLibSalsa.exe
+F:\salsa beats\XmlLibSalsa\obj\Debug\XmlLibSalsa.pdb
+F:\salsa beats\XmlLibSalsa\bin\Debug\beats.xml
+F:\salsa beats\XmlLibSalsa\bin\Debug\XmlLibSalsa.exe
+F:\salsa beats\XmlLibSalsa\bin\Debug\XmlLibSalsa.pdb
+F:\salsa beats\XmlLibSalsa\obj\Debug\ResolveAssemblyReference.cache
+F:\salsa beats\XmlLibSalsa\obj\Debug\XmlLibSalsa.Form1.resources
+F:\salsa beats\XmlLibSalsa\obj\Debug\XmlLibSalsa.Properties.Resources.resources
+F:\salsa beats\XmlLibSalsa\obj\Debug\XmlLibSalsa.csproj.GenerateResource.Cache

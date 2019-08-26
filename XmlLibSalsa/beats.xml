@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Song>
+  <Instruments>
+    <Instrument name="Clave"  vol="255" img="">
+      <Note name="Clave" location="Clave/clave01.ogg" ></Note>
+    </Instrument>
+    <Instrument name="Bongo" vol="160" img="">
+      <Note name="Open" location ="">
+      </Note>
+      <Note name="Slap" location ="">
+      </Note>
+      <Note name="Heel" location ="">
+      </Note>
+      <Note name="Tip" location ="">
+      </Note>
+      <Note name="Mute" location ="">
+      </Note>
+    </Instrument>
+    <Instrument name="Conga" vol="120" img="">
+      <Note name="Open" location ="">
+      </Note>
+      <Note name="Slap" location ="">
+      </Note>
+      <Note name="Heel" location ="">
+      </Note>
+      <Note name="Tip" location ="">
+      </Note>
+      <Note name="Mute" location ="">
+      </Note>
+    </Instrument>
+    <Instrument name="Guiro" vol="120" img="">
+      <Note name="Long" location=""></Note>
+      <Note name="Short" location=""></Note>
+      <Note name="Tap" location=""></Note>
+      <Note name="Guira Long" location=""></Note>
+      <Note name="Guira Short" location=""></Note>
+      <Note name="Guira Tap" location=""></Note>
+    </Instrument>
+    <Instrument name="Cowbell"  vol="255" img="">
+      <Note name="Clave" location="Clave/clave01.ogg" ></Note>
+    </Instrument>
+  </Instruments>
+  <Patterns>
+    
+    <!--The patterns are on a base of 32. 1...2...3...4...5...6...7...8...-->
+    <!--                                  00000000001111111111222222222233-->
+    <!--                                  01234567890123456789012345678901-->
+    <!--  Note: the patterns start at 0, not 1                            -->
+    <Beat name="Clave" img="" followsClave="true" Overlap="true">
+      <Sequence name="3-2">
+        <Sound time="0" instrument="Clave" note ="Clave"></Sound>
+        <Sound time="6" instrument="Clave" note ="Clave"></Sound>
+        <Sound time="12" instrument="Clave" note ="Clave"></Sound>
+        <Sound time="20" instrument="Clave" note ="Clave"></Sound>
+        <Sound time="24" instrument="Clave" note ="Clave"></Sound>
+      </Sequence>
+      <Sequence name ="2-3">
+        <Sound time="1" instrument="Clave" note ="Clave"></Sound>
+        <Sound time="6" instrument="Clave" note ="Clave"></Sound>
+        <Sound time="16" instrument="Clave" note ="Clave"></Sound>
+        <Sound time="22" instrument="Clave" note ="Clave"></Sound>
+        <Sound time="28" instrument="Clave" note ="Clave"></Sound>
+      </Sequence> 
+    </Beat>
+    <Beat name="Bongo" img="" followsClave="true" Overlap="true">
+      <Sequence name="Martillo">
+        <Sound time="0" instrument="Bongo" note ="Low"></Sound>
+        <Sound time="4" instrument="Bongo" note ="High"></Sound>
+        <Sound time="12" instrument="Bongo" note ="Low"></Sound>
+        <Sound time="16" instrument="Bongo" note ="High"></Sound>
+        <Sound time="24" instrument="Bongo" note ="Low"></Sound>
+        <Sound time="28" instrument="Bongo" note ="High"></Sound>
+      </Sequence>
+      <Sequence name="Jazz">
+        <Sound time="0" instrument="Bongo" note ="Low"></Sound>
+        <Sound time="4" instrument="Bongo" note ="High"></Sound>
+        <Sound time="12" instrument="Bongo" note ="Low"></Sound>
+        <Sound time="16" instrument="Bongo" note ="High"></Sound>
+        <Sound time="24" instrument="Bongo" note ="Low"></Sound>
+        <Sound time="28" instrument="Bongo" note ="High"></Sound>
+      </Sequence>
+      <Sequence name="Rock">
+        <Sound time="0" instrument="Bongo" note ="Low"></Sound>
+        <Sound time="4" instrument="Bongo" note ="High"></Sound>
+        <Sound time="12" instrument="Bongo" note ="Low"></Sound>
+        <Sound time="16" instrument="Bongo" note ="High"></Sound>
+        <Sound time="24" instrument="Bongo" note ="Low"></Sound>
+        <Sound time="28" instrument="Bongo" note ="High"></Sound>
+      </Sequence>
+    </Beat>
+    <!-- -->
+    <Beat name="Congas" img="" followsClave="true" Overlap="true">
+      <Sequence name="Tumbao 1">
+        <Sound time="0" instrument="Conga" note ="Heel"></Sound>
+        <Sound time="2" instrument="Conga" note ="Tip"></Sound>
+        <Sound time="4" instrument="Conga" note ="Slap"></Sound>
+        <Sound time="6" instrument="Conga" note ="Open"></Sound>
+        <Sound time="8" instrument="Conga" note ="Open"></Sound>
+        <Sound time="10" instrument="Conga" note ="Tip"></Sound>
+        <Sound time="12" instrument="Conga" note ="Open"></Sound>
+        <Sound time="14" instrument="Conga" note ="Open"></Sound>
+        <Sound time="16" instrument="Conga" note ="Heel"></Sound>
+        <Sound time="18" instrument="Conga" note ="Tip"></Sound>
+        <Sound time="20" instrument="Conga" note ="Slap"></Sound>
+        <Sound time="22" instrument="Conga" note ="Tip"></Sound>
+        <Sound time="24" instrument="Conga" note ="Heel"></Sound>
+        <Sound time="26" instrument="Conga" note ="Tip"></Sound>
+        <Sound time="28" instrument="Conga" note ="Open"></Sound>
+        <Sound time="30" instrument="Conga" note ="Open"></Sound>
+      </Sequence>
+      <Sequence name="Tumbao 2">
+        <Sound time="0" instrument="Conga" note ="Heel"></Sound>
+        <Sound time="2" instrument="Conga" note ="Tip"></Sound>
+        <Sound time="4" instrument="Conga" note ="Slap"></Sound>
+        <Sound time="6" instrument="Conga" note ="Open"></Sound>
+        <Sound time="8" instrument="Conga" note ="Heel"></Sound>
+        <Sound time="10" instrument="Conga" note ="Tip"></Sound>
+        <Sound time="12" instrument="Conga" note ="Open"></Sound>
+        <Sound time="14" instrument="Conga" note ="Open"></Sound>
+        <Sound time="16" instrument="Conga" note ="Heel"></Sound>
+        <Sound time="18" instrument="Conga" note ="Tip"></Sound>
+        <Sound time="20" instrument="Conga" note ="Slap"></Sound>
+        <Sound time="22" instrument="Conga" note ="Open"></Sound>
+        <Sound time="24" instrument="Conga" note ="Heel"></Sound>
+        <Sound time="26" instrument="Conga" note ="Tip"></Sound>
+        <Sound time="28" instrument="Conga" note ="Open"></Sound>
+        <Sound time="30" instrument="Conga" note ="Open"></Sound>
+      </Sequence>
+    </Beat>
+    <!--http://www.lpmusic.com/Play_Like_A_Pro/Tech_Support/maracas.html-->
+    <Beat name ="Maracas" img="" followsClave="false" Overlap ="false">
+      <Sequence name="Bolero 1">
+      </Sequence>
+      <Sequence name="Bolero 2"></Sequence>
+      <Sequence name="Bolero 3"></Sequence>
+      <Sequence name="Son"></Sequence>
+      <Sequence name="Son Montuno 1"></Sequence>
+      <Sequence name="Son Montuno 2"></Sequence>
+      <Sequence name="Fast Guaracha"></Sequence>
+      
+    </Beat>
+    <!--http://www.lpmusic.com/Play_Like_A_Pro/Tech_Support/guiro-basics.html-->
+    <Beat name ="Guiro" img="" followsClave="true" Overlap ="false">
+      <Sequence name="guarjira (Cha-cha-cha)"></Sequence>
+      <Sequence name="Charanga (fast salsa)"></Sequence>
+      <Sequence name="Danzón (slow)"></Sequence>
+      <Sequence name="Catá (Guaganco)"></Sequence>
+    </Beat>
+    <!--http://lpmusic.com/Play_Like_A_Pro/Tech_Support/timbalesbasics.html-->
+    <Beat name="Timbale" img="" followsClave="true" Overlap ="true">
+      <Sequence name="Cascara"></Sequence>
+      <Sequence name="Salsa"></Sequence>
+      <Sequence name="Cha cha Bell"></Sequence>
+    </Beat>
+    <!-- need a cowbell rhythm source -->
+    <Beat name="Cowbell" img="" followsClave="true" Overlap ="true">
+      
+    </Beat>
+    <!-- Need a bass source-->
+    <Beat name="Bass" img="" followsClave="tue" Overlap="true"></Beat>
+    <!-- Need a piano source-->
+    <Beat name="Piano" img="" followsClave="true" Overlap="true"></Beat>
+  </Patterns>
+  <Tracks>
+  <Track name="Salsa Warmup" length ="30" beatsperminute="90">
+    <SubTrack name="Clave" beat="Clave" sequence="3-2" start ="0" end="29"></SubTrack>
+    <SubTrack name="Guiro-1" beat="Guiro" sequence="Danzón (slow)" start ="1" end="6"></SubTrack>
+    <SubTrack name="Guiro-2" beat="Guiro" sequence="Charanga (fast salsa)" start ="8" end="14"></SubTrack>
+    <SubTrack name="Guiro-3" beat="Guiro" sequence="Danzón (slow)" start ="16" end="22"></SubTrack>
+    <SubTrack name="Guiro-4" beat="Guiro" sequence="Danzón (slow)" start ="24" end="29"></SubTrack>
+    <Subtrack name="Timbale-1" beat="Timbale" sequence="Cascara" start="2" end="12"></Subtrack>
+    <Subtrack name="Timbale-2" beat="Timbale" sequence="Cascara" start="18" end="28"></Subtrack>
+    <Subtrack name="Timbale-3" beat="Timbale" sequence="Salsa" start="2" end="12"></Subtrack>
+    <Subtrack name="Congas-1" beat="Congas" sequence="Tumbao 1" start="0" end ="29"></Subtrack>
+  </Track>
+  </Tracks>
+</Song>
